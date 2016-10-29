@@ -1,0 +1,108 @@
+
+/* CSS LIGTBOX */
+
+#bgPopup {  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+overflow:hidden;
+top:0;  
+left:0;  
+background:#000000;  
+z-index:1000;  
+}  
+
+#Popup {
+display:none; 
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/  
+z-index:1500;    
+background-color:#000000;
+/*border:7px #000 solid;*/
+text-align:justify;
+padding:-10px;
+-moz-border-radius : 10px; 
+color:#fff;
+font-family: verdana;
+font-size:16px;
+border-radius: 25px;
+}
+
+#fermer {
+position:relative;  
+float:right;
+margin-top:-25px;
+margin-right:-25px;
+cursor:pointer;
+}
+
+#my_logo {
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/  
+margin-top:-40px;
+margin-left:-6px;
+background-color:#000000;
+-moz-border-radius : 10px; 
+padding:4px;
+/*border:1px #000 solid;*/
+}
+
+#contenu {
+position:absolute;
+}
+#load {
+display:none;
+}
+
+a.lightbox {
+cursor:pointer;
+color:#803300;
+text-decoration:none;
+}
+
+a.lightbox:hover {
+text-decoration:none;
+color:#FFBA08;
+}
+
+a.lightbox2 {
+font-family: Arial;
+font-weight: bold;
+color: #777;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+text-decoration: none;
+font-size: 14px;
+}
+
+a.lightbox2:hover {
+color: white;
+}
+
+div.lightboxcontent{
+	width: 540px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.lightboxcontentb{
+	width: 540px;
+	height: 350px;
+}
+
+div.lightboxcenter{
+	border:2px;
+	border-style: groove;
+	border-color: #aa7a53; 
+	color: #aa7a53; 
+	text-decoration: none; 
+	text-shadow: 0 0 4px rgba(0, 0, 0, 1); 
+	margin-left:auto; 
+	margin-right:auto;
+	padding: 5px;
+	line-height: 20px;
+	text-align: justify;
+	overflow: auto;
+}
