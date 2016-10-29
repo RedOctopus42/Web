@@ -1,0 +1,473 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin-left: 0px;
+    font-family: 'Metamorphous', cursive;
+    background: #000000;
+
+}
+
+h1{
+    font-variant: small-caps;
+}
+
+h2{
+    font-variant: small-caps;
+    text-shadow: 2px 2px 8px #E20505;
+    color: #000000;
+}
+
+
+
+ul{
+    color:#850606;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+ol{
+    font-size: 12px;
+    color: #850606;
+}
+
+form{
+    margin: 0 auto;
+    width: 640px;
+    padding: 10px;
+    border: solid 1px #850606;
+    border-radius: 10px;
+}
+
+form div + div{
+    margin-top: 15px;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    color: #850606;
+    padding-left: 5px;
+}
+
+input, textarea{
+    font-family: 'Metamorphous', cursive;
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid 1px #850606;
+    background: rgba(10, 10, 10, 0.5);
+}
+
+input:focus, textarea:focus{
+    border-color: #d4d4d4;
+    outline-color: #ff9306;
+}
+
+textarea{
+    vertical-align: top;
+    height: 10em;
+    resize: none;
+}
+
+.button{
+    padding-right: 9px;
+    text-align: end;
+}
+
+.submit{
+    font-family: 'Metamorphous', cursive;
+    background: rgba(0, 0, 0, 0.2);
+    color: #850606;
+    border: groove 2px #850606;
+    outline-color: #ff9306;
+}
+
+.submit:hover{
+    color: #ff9306;
+}
+
+.barre{
+    width: 620px;
+    background: rgba(133, 6, 6, 0.2);
+    border: dashed 1px #850606;
+    padding: 5px;
+}
+
+#explain{
+    margin-top: 50px;
+}
+
+ul.left{
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+ul.right{
+    float: right;
+    list-style: none;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+li.rule{
+    margin-top: 10px;
+    line-height: 20px;
+    color: #850606;;
+}
+
+li.rules{
+    list-style: none;
+    color: #850606;
+}
+
+p.rules{
+    font-size: 12px;
+    text-align: justify;
+    color: #850606;
+}
+
+#head{
+    width: 100%;
+    height: 960px;
+    background: url("../img/new_background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fixHeader{
+    z-index: 9999;
+    position: fixed;
+    top: 0; /* Mise en forme */
+    width: 100%; /* <-- Largeur de votre site */
+}
+
+p#mess_header{
+    padding-top: 5px;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#menu{
+    width: 1080px;
+    height: 85px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stat{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 28px;
+    color: #850606;
+    text-shadow: 0px 0.5px 0.5px #000000;
+}
+
+#bille1{
+    margin-right: 30px;
+}
+
+#votes{
+    text-align: center;
+    margin-top: 170px;
+}
+
+#log{
+    margin-top: 120px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#statistics{
+     width: 100%;
+     height: 910px;
+     background: url("../img/new_background.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+#join_us{
+    width: 100%;
+    height: 910px;
+    background: url("../img/new_background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#donation{
+     width: 100%;
+     height: 910px;
+     background: url("../img/atelia_gallery_01.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+#rules{
+    width: 100%;
+    height: 910px;
+    background: url("../img/atelia_gallery_01.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contact{
+    width: 100%;
+    height: 910px;
+    background: url("../img/new_background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contain{
+    width: 1080px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contain_stats{
+    width: 1080px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 95%;
+}
+
+.centre{
+    width: 600px;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #850606;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center{
+    width: 800px;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tete{
+    text-align: center;
+    text-shadow: 2px 2px 8px #000000;
+    height: 40px;
+    color: #850606;
+}
+
+.corps{
+    text-align: justify;
+    text-shadow: 0px 0.5px 0.5px #000000;
+    padding: 10px;
+    color: #850606;
+    height: 73%;
+}
+
+.pied{
+    text-shadow: 0px 0.5px 0.5px #000000;
+    padding: 10px;
+    color: #d4d4d4;
+    font-size: 13px;
+}
+
+#space{
+    height: 80px;
+}
+
+.paragraphe{
+    margin-top: 80px;
+}
+
+.grey{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bronze{
+    margin-top: 5px;
+    text-align: center;
+    color: #803717;
+}
+
+.paypal{
+    border: none;
+    background: none;
+    width: auto;
+    text-align: center;
+}
+
+.lien{
+    border: 1px solid #850606;
+    width: 100px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #850606;
+    font-variant: small-caps;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.lien:hover{
+    color: #850606;
+    background: rgba(133, 6, 6, 0.22);
+}
+
+.vote{
+    border: 1px solid #850606;
+    width: 150px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #850606;
+    font-variant: small-caps;
+    font-size: 22px;
+    vertical-align: middle;
+    text-shadow: 0px 0.5px 0.5px #000000;
+}
+
+.vote:hover{
+    color: #850606;
+    background: rgba(133, 6, 6, 0.22);
+}
+
+#barreright{
+    width: 220px;
+    height: 90%;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+#barreleft{
+    width: 220px;
+    height: 90%;
+    float: left;
+    border-radius: 10px;
+    margin-right: 17px;
+    border: 1px solid #d4d4d4;
+}
+
+.top_ge h2{
+    text-align: center;
+}
+
+.top_ge_r h2{
+    text-align: center;
+}
+
+.top_ge_r{
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.top_id, .top_name, .top_value{
+    text-shadow: 0px 0.5px 0.5px #000000;
+    color: #F9F4F4;
+    font-size: 11px;
+}
+
+.top_id{
+    width: 10px;
+    padding-left: 5px;
+}
+
+.top_name{
+    width: 170px;
+    text-align: center;
+}
+
+.top_value{
+    text-align: right;
+    width: 25px;
+    padding-right: 5px;
+}
+
+.top_castle, .top_clan, .top_lord{
+    text-shadow: 0px 0.5px 0.5px #000000;
+    color: #F9F4F4;
+    font-size: 11px; 
+} 
+
+.top_castle{
+    width: 90px;
+    padding-left: 5px;
+}
+
+.top_clan{
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+    color: #ff9306;
+}
+
+.top_lord{
+
+}
+
+.erreur{
+    text-align: center;
+    color: #ff9306;
+}
+#footer{
+    height: 40px;
+    background: #000000;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.foot_right{
+    float: right;
+    padding-right: 10px;
+    color: #d4d4d4;
+}
+
+.foot_left{
+    float: left;
+    padding-left: 30px;
+    color: #d4d4d4;
+    text-decoration: none;
+}
